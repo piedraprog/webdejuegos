@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 3000 500" style="enable-background:new 0 0 3000 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{display:inline;fill:#FF2A30;}
+</style>
+<g id="Capa_3" class="st0">
+	
+		<image style="display:inline;overflow:visible;" width="1920" height="888" xlink:href="../../../../Pictures/imagenes jose/fondo de pantalla/fondo de pantalla/ionia-placidiumnavori.jpg"  transform="matrix(0.5938 0 0 0.5618 0 1.0973)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="1920" height="888" xlink:href="../../../../Pictures/imagenes jose/fondo de pantalla/fondo de pantalla/ionia-placidiumnavori.jpg"  transform="matrix(0.5938 0 0 0.5618 1138.9598 1.0973)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="1920" height="888" xlink:href="../../../../Pictures/imagenes jose/fondo de pantalla/fondo de pantalla/ionia-placidiumnavori.jpg"  transform="matrix(0.3747 0 0 0.5618 2278.9741 1.0973)">
+	</image>
+</g>
+<g id="BLOQUES" class="st0">
+	<g id="Capa_x0020_1" class="st1">
+		<rect y="338" width="66" height="162"/>
+		<rect x="159" y="328" width="66" height="172"/>
+		<rect x="216" y="298" width="66" height="162"/>
+		<rect y="389" width="223" height="111"/>
+		<rect x="160" y="356" width="245" height="144"/>
+		<rect x="459" y="298" width="66" height="202"/>
+		<rect x="522" y="350" width="67" height="150"/>
+		<rect x="461" y="393" width="163" height="107"/>
+		<rect x="589" y="265" width="200" height="235"/>
+		<rect x="864" y="414" width="66" height="86"/>
+		<rect x="969" y="387" width="66" height="113"/>
+		<rect x="1086" y="387" width="173" height="113"/>
+		<rect x="1309" y="357" width="173" height="143"/>
+		<rect x="1561" y="357" width="79" height="143"/>
+		<rect x="1706" y="357" width="117" height="143"/>
+		<rect x="1807" y="281" width="160" height="220"/>
+		<rect x="2065" y="308" width="160" height="193"/>
+		<rect x="2360" y="252" width="225" height="248"/>
+		<rect x="2280" y="364" width="155" height="137"/>
+		<rect x="2690" width="310" height="116"/>
+		<rect x="2690" y="288" width="310" height="212"/>
+	</g>
+</g>
+<g id="obstaculos">
+	
+		<image style="overflow:visible;" width="680" height="680" xlink:href="kisspng-circular-saw-blade-clip-art-saw-blade-cliparts-5aac9d0de30677.8354302315212618379299.png"  transform="matrix(4.852941e-002 0 0 4.852941e-002 326 314)">
+	</image>
+	
+		<image style="overflow:visible;" width="680" height="680" xlink:href="kisspng-circular-saw-blade-clip-art-saw-blade-cliparts-5aac9d0de30677.8354302315212618379299.png"  transform="matrix(4.852941e-002 0 0 4.852941e-002 537 314)">
+	</image>
+	
+		<image style="overflow:visible;" width="680" height="680" xlink:href="kisspng-circular-saw-blade-clip-art-saw-blade-cliparts-5aac9d0de30677.8354302315212618379299.png"  transform="matrix(4.852941e-002 0 0 4.852941e-002 94 354)">
+	</image>
+	
+		<image style="overflow:visible;" width="680" height="680" xlink:href="kisspng-circular-saw-blade-clip-art-saw-blade-cliparts-5aac9d0de30677.8354302315212618379299.png"  transform="matrix(5.882353e-002 0 0 5.882353e-002 1148 329)">
+	</image>
+	
+		<image style="overflow:visible;" width="680" height="680" xlink:href="kisspng-circular-saw-blade-clip-art-saw-blade-cliparts-5aac9d0de30677.8354302315212618379299.png"  transform="matrix(5.588235e-002 0 0 5.441177e-002 1371 312)">
+	</image>
+	
+		<image style="overflow:visible;" width="680" height="680" xlink:href="kisspng-circular-saw-blade-clip-art-saw-blade-cliparts-5aac9d0de30677.8354302315212618379299.png"  transform="matrix(6.029412e-002 0 0 6.029412e-002 1864 238)">
+	</image>
+	
+		<image style="overflow:visible;" width="680" height="680" xlink:href="kisspng-circular-saw-blade-clip-art-saw-blade-cliparts-5aac9d0de30677.8354302315212618379299.png"  transform="matrix(6.617647e-002 0 0 6.470589e-002 2447 198)">
+	</image>
+</g>
+<g id="plataforma_donde_estaran_los_bloques" class="st0">
+	<rect y="326" class="st2" width="66" height="12"/>
+	<rect x="60" y="381" class="st2" width="105" height="9"/>
+	<rect x="159" y="328" class="st2" width="74" height="172"/>
+	<rect x="216" y="298" class="st2" width="68" height="6"/>
+	<rect x="282" y="347" class="st2" width="122.7" height="10"/>
+	<rect x="454" y="289" class="st2" width="71" height="9"/>
+	<rect x="524" y="341" class="st2" width="65" height="9"/>
+	<rect x="589" y="265" class="st2" width="200" height="235.6"/>
+	<rect x="864" y="413" class="st2" width="66" height="87.1"/>
+	<rect x="970.5" y="385.3" class="st2" width="66" height="114.7"/>
+	<rect x="1085" y="375" class="st2" width="174" height="12"/>
+	<rect x="1305" y="346" class="st2" width="177" height="11"/>
+	<rect x="1561" y="349" class="st2" width="79" height="11"/>
+	<rect x="1703" y="350" class="st2" width="110" height="9"/>
+	<rect x="1807" y="281" class="st2" width="159" height="220.4"/>
+	<rect x="2066" y="304" class="st2" width="157" height="8"/>
+	<rect x="2278" y="355" class="st2" width="86" height="9"/>
+	<rect x="2361" y="244" class="st2" width="222" height="13"/>
+	<rect x="2690" y="288" class="st2" width="310" height="212"/>
+	<rect x="2689" class="st2" width="311" height="116"/>
+</g>
+<g id="testuraplataforma" class="st0">
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(0.1206 0 0 8.680794e-002 565.0126 176.3905)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(4.799760e-002 0 0 4.195861e-002 440.1434 252.0903)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(4.713004e-002 0 0 3.620929e-002 508.9818 312.1726)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(0.1206 0 0 8.680794e-002 1048.9799 294.3909)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(0.1206 0 0 8.680794e-002 1269.4871 267.3922)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(0.1206 0 0 8.680794e-002 1764.5083 196.8941)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(0.1206 0 0 8.680794e-002 2021.4373 222.8053)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(0.1393 0 0 8.680794e-002 2330.5125 163.8944)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(7.881469e-002 0 0 6.520917e-002 266.0149 288.0885)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(4.656630e-002 0 0 5.084730e-002 203.4207 250.9784)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(4.656630e-002 0 0 5.084730e-002 149.4207 281.9784)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(6.406630e-002 0 0 5.234730e-002 46.4207 333.9784)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(4.656630e-002 0 0 5.084730e-002 -12.5793 283.9784)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(4.799760e-002 0 0 4.195861e-002 848.1434 372.0903)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(4.799760e-002 0 0 4.195861e-002 953.1434 342.0903)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(5.149760e-002 0 0 4.845861e-002 1547.1434 307.0903)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(6.149760e-002 0 0 4.695861e-002 1693.1434 308.0903)">
+	</image>
+	
+		<image style="display:inline;overflow:visible;" width="2000" height="2000" xlink:href="techo.png"  transform="matrix(5.549760e-002 0 0 4.345861e-002 2266.1433 319.0903)">
+	</image>
+</g>
+<g id="jugador" class="st0">
+	
+		<image style="display:inline;overflow:visible;" width="1200" height="1200" xlink:href="kisspng-ninja-computer-icons-assassination-game-ninja-5ac41e4413f530.4363528815228022440818.png"  transform="matrix(-3.333334e-002 0 0 3.333334e-002 38.6667 282.1424)">
+	</image>
+</g>
+</svg>

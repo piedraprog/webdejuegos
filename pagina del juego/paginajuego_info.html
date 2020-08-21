@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JUEGOS|| NINJA CHRONICLES</title>
+    <link rel="icon" href="img/logo2.png">
+
+    <!-- HOJAS DE ESTILO -->    
+    
+    <link rel="stylesheet" href="css/estilospagina_juego.css">
+
+    <link rel="stylesheet" href="../pagina principal/css/estiloheader.css">
+
+    <link rel="stylesheet" href="css/estilofooter.css">
+
+    <link rel="stylesheet" href="../pagina principal/css/estilologin.css">
+
+    <link rel="stylesheet" href="../pagina principal/css/estilos-premium.css">
+
+    <!-- RECURSOS -->
+
+    <link rel="stylesheet" type="text/css" href="../recursos globales/bootstrap/css/bootstrap.css">
+
+    <script src="../recursos globales/iconos/all.js"></script>
+
+    <script src="../pagina principal/js/jquery-3.4.1.min.js"></script>
+
+    <script src="../recursos globales/bootstrap/js/bootstrap.js"></script>
+
+
+</head>
+<body>
+    
+    
+    <header  id="header">
+        <div class="contenedor-header">
+            <nav class="header-menu">
+
+                <div class="header-logo">
+    
+                    <a href="#" class="marca"><img src="../pagina principal/imagenes/logo2.png"></a>
+                    <a href="#" class="btn-menu" id="btn-menu"><i class="icono fas fa-bars"></i></a>
+                </div>
+    
+                <div class="enlaces" id="enlaces">
+    
+                    <ul>
+                        <li><a id="home" href="../Home.html">Home</a></li>
+                            
+                        <li><a id="noticias" href="#">Noticias</a></li>
+                            
+                        <li><a id="juegos" href="../pagina del juego/paginajuego_info.html">Juegos</a></li>
+                            
+                        <li><button id="pago" type="button"  data-toggle="modal" data-target="#modal-premium">Premium</button></li>
+
+                        <li>
+                            <div class="acceder" id="acceder">
+                                <a id="login" href="#">Login</a>
+                                <div id="login-content">
+                                    <form id="login-acceder">
+                                        <h1>Ingresar</h1> 
+                                        <input id="user" type="text"  placeholder="Usuario">  
+                                        <br>
+                                        <input id="pass" type="password" name="Password" placeholder="Contraseña">
+                                        <br>
+                                        <label><input type="checkbox" checked="checked">Recuerdame</label>
+                                        <br>
+                                        <div id="mensaje">
+                                            
+                                        </div>
+                                        <a class="datos-olvidados" href="#">¿Has olvidado los Datos de la Cuenta?</a>     <br>                    
+                                        <button id="abrir" type="submit"  data-toggle="modal" data-target="#modal-registro">Registrarme</button>
+
+                                        <button type="submit" id="ingresar">Ingresar</button>
+                                            
+                                        
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="online" id="online">
+                                    <a id="login2" href="#"><i id="Uonline"></i></a>
+                                    <div id="login-online">
+                                        <form id="login-sesiononline">
+                                            <ul>
+                                                <li><button type="submit" id="Eliminar-Cuenta">¿Eliminar Cuenta?</button></li>
+
+                                                <li><button type="submit" id="Configuracion-Cuenta">Configuracion Cuenta</button></li>
+                                            </ul>   
+
+                                                <button type="submit" id="cerrar-sesion">cerrar-sesion</button>
+                                        </form>
+                                    </div>
+                            </div>   
+                        </li>
+                            
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS//-->
+
+        <!-- MODAL DE SERVICION PREMIUM -->
+    <div class="modal fade" id="modal-premium" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+            <div class="modal-dialog" role="document">
+          
+              <div class="modal-content">
+          
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Ayuda a usuario</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="tabla">
+                      <div class="titulo">
+                        <span class="fa fa-diamond"></span>
+                        <h2>Económico</h2>
+                      </div>
+                
+                      <div class="precio">
+                        <h3>$ <span>25</span></h3>
+                      </div>
+                
+                      <div class="descripcion">
+                        <ul>
+                          <li><i class="fa fa-check"></i> 10GB Espacio</li>
+                          <li><i class="fa fa-check"></i> 5 Dominios</li>
+                          <li><i class="fa fa-check"></i> 10 Cuentas de Correo</li>
+                          <li><i class="fa fa-times"></i> Soporte Económico</li>
+                        </ul>
+                      </div>
+                
+                      <div class="enlace">
+                        <a href="#">Comprar</a>
+                      </div>
+                    </div>
+                
+                    <div class="tabla">
+                      <div class="titulo">
+                        <span class="fa fa-diamond"></span>
+                        <h2>Premium</h2>
+                      </div>
+                
+                      <div class="precio">
+                        <h3>$ <span>50</span></h3>
+                      </div>
+                
+                      <div class="descripcion">
+                        <ul>
+                          <li><i class="fa fa-check"></i> 100GB Espacio</li>
+                          <li><i class="fa fa-check"></i> 10 Dominios</li>
+                          <li><i class="fa fa-check"></i> 50 Cuentas de Correo</li>
+                          <li><i class="fa fa-check"></i> Soporte Premium</li>
+                        </ul>
+                      </div>
+                
+                      <div class="enlace">
+                        <a href="#">Comprar</a>
+                      </div>
+                    </div>
+                
+                    <div class="tabla">
+                      <div class="titulo">
+                        <span class="fa fa-diamond"></span>
+                        <h2>Empresarial</h2>
+                      </div>
+                
+                      <div class="precio">
+                        <h3>$ <span>100</span></h3>
+                      </div>
+                
+                      <div class="descripcion">
+                        <ul>
+                          <li><i class="fa fa-check"></i> Espacio Ilimitado</li>
+                          <li><i class="fa fa-check"></i> 25 Dominios</li>
+                          <li><i class="fa fa-check"></i> Correos Ilimitados</li>
+                          <li><i class="fa fa-check"></i> Soporte Empresarial</li>
+                        </ul>
+                      </div>
+                
+                      <div class="enlace">
+                        <a href="#">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                 
+                </div>
+              </div>
+            </div>
+    </div>
+        
+        <!-- MODAL DE SISTEMA DE REGISTRO -->
+    <div class="modal fade" id="modal-registro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+            <div class="modal-dialog" role="document">
+          
+              <div class="modal-content">
+          
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Ayuda a usuario</h4>
+                </div>
+                <div class="modal-body">
+                    <form  id="formulario">
+                        <ul>
+                            <li>Nombre de Usuario * <input type="text" id="username" required></li>
+                            
+                            <li>Contraseña * <input type="password" id="password" required></li>
+                         
+                            <li>Verificar Contraseña * <input type="password"  id="vrpassword" required></li>
+
+                            <div id="alerta1" style="color: red;"></div>
+
+                            <li>Correo Electronico * <input type="email" id="email" required></li>
+                            
+                            <li>Confirmacion de Correo Electronico * <input type="email" id="vremail" required></li>
+
+                            <div id="alerta2" style="color: red;"></div>
+
+                            <li>Fecha de Nacimiento * <input type="date" id="date" required></li>
+                            
+                            <li>Numero de Tarjeta de Credito  <input type="text" id="Credit-card" ></li>
+                           
+                            <li>Numero de Seguridad <input type="text" id="SecurityCredit-card" ></li>
+                            
+                            <div id="alerta3" style="color: red;"></div>
+
+                            <label>Al registrarte, aceptas nuestros <a href="#">Términos de servicio</a>y nuestra <a href="#">Política de privacidad</a>.</label>
+                        </ul>       
+                </form>
+                </div>
+                <div class="modal-footer">
+                  <button id="registroDB" type="submit" class="btn btn-primary">REGISTRARME</button>
+                 
+                </div>
+              </div>
+            </div>
+    </div>            
+
+
+    <!-- BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY// -->
+    <div class="body">
+      <div class="" id="titulo-juego">
+          <img src="img/titulo del juego.png" alt="">
+      </div>
+
+      <div class="img-caracteristicas">
+              <img src="img/portada.jpg" alt="">
+              <div class="caracteristicas-web">
+                <h3>WEB</h3>
+                <ul>
+                  <li>NAVEGADOR</li>
+                  <li>RAM</li>
+                  <li>GRAFICOS</li>
+                  <li>HDD</li>
+                  <li></li>
+                </ul>
+              </div>
+              <div class="caracteristicas-movil">
+                <h3>MOVIL</h3>
+                <ul>
+                    <li>NAVEGADOR</li>
+                    <li>RAM</li>
+                    <li>GRAFICOS</li>
+                    <li>HDD</li>
+                    <li></li>
+                </ul>
+              </div>
+      </div>
+      <div class="inf-puntajes">
+
+              <div class="historia">
+
+                  <h1>HISTORIA</h1>
+                  <p>El juego se situa 20 años en el mundo de britania una tierra que esta bajo el control de un malvado ninja que en busca de poder destruyo la mitad del continente buscando al elegido, un niño llamado Tanjiro, que fue escondido por su made antes de morir en una cueva en las afueras del pueblo fuera de todo peligro, en la cueva se encontraba un templo donde vivia un viejo maestro ninja que lo cria y entrena, sabiendo su destino al llegar a los 20 años le cuenta todo lo sucedido y tanjiro en busqueda de respuestas, empieza su aventura a travez del mundo...</p> 
+              </div>
+
+              <div class="tablas-puntajes">
+
+                  <H1>MEJORES PUNTAJES</H1>
+                  <ul id="puntajes">
+                      <li>NOMBRE||PUNTAJE</li>
+                      <li>NOMBRE||puntaje1</li>
+                      <li>NOMBRE||puntaje2</li>
+                      <li>NOMBRE||puntaje3</li>
+                      <li>NOMBRE||puntaje4</li>
+                      <li>NOMBRE||puntaje5</li>
+                      <li>NOMBRE||puntaje6</li>
+                      <li>NOMBRE||puntaje7</li>
+                      <li>NOMBRE||puntaje8</li>
+                      <li>NOMBRE||puntaje9</li>
+                      <li>NOMBRE||puntaje10</li>
+                  </ul>
+                  
+              </div>
+
+              
+      </div>
+
+      
+    </div>
+    <div id="contenedorjugar">
+      <div class="" id="jugar"> 
+          <a id="demo"href="beta del juego/juego.html">PROBAR DEMO AHORA</a>
+      </div>
+    </div>
+
+    <!-- FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER// -->
+    <footer id="footer" class="footer-1">
+      <div class="main-footer widgets-dark typo-light">
+          <div class="container">
+              <div class="row">
+              
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                              <div class="widget subscribe no-box">
+                                  <img src="../pagina principal/imagenes/logo2.png">
+                              </div>
+                  </div>
+              
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                              <div class="widget no-box">
+                                  <h5 class="widget-title">Information<span></span></h5>
+                                  <ul class="thumbnail-widget">
+
+                                      <li><div class="thumb-content"><a href="#.">Infomacion</a></div></li>
+
+                                      <li><div class="thumb-content"><a href="#.">Noticias</a></div></li>
+
+                                      <li><div class="thumb-content"><a href="#.">Acerca de Nosotros</a></div></li>
+
+                                      <li><div class="thumb-content"><a href="#.">Direccion</a></div></li>
+
+                                      <li><div class="thumb-content"><a href="#.">Telefonos</a></div></li>
+                                      
+                                      
+                                  
+                                  </ul>
+                              </div>
+                  </div>
+              
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                              <div class="widget no-box">
+                                  <h5 class="widget-title">Unete al Equipo<span></span></h5>
+                                  <p>Ten acceso a toda una variedad de productos</p>
+                                  <a id="abrir "  class="btn" data-toggle="modal" data-target="#modal-registro" href="#." target="_blank">Registrate Ahora</a>
+                                  
+                              </div>
+                  </div>
+              
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                      
+                              <div class="widget no-box">
+                                  <h5 class="widget-title">Contact Us<span></span></h5>
+                                  
+                                  <p><a href="mailto:support@piedraGames.com" title="glorythemes">support@piedraGames.com</a></p>
+                                  <ul class="social-footer2">
+                                      <li><i class="fab fa-facebook-square"></i></li>
+                                      <li><i class="fab fa-instagram"></i></li>
+                                      <li><i class="fab fa-twitter"></i></li>
+                                      <li><i class="fab fa-youtube"></i></li>
+                                  </ul>
+                              </div>
+                  </div>
+              
+                  <div class="footer-copyright">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-12 text-center">
+                                  <p> Piedra Games © Copyright 2019.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>   
+                  
+              </div>
+          </div>
+      </div>
+    </footer> 
+    
+</body>
+<!-- SCRIPTS -->
+
+
+
+
+<script src="../pagina principal/js/app-database.js"></script><!-- JS QUE ME VA A MANEJAR EL LOCAL ESTORAGE Y EL REGISTRO DE USUARIOS EN EL LOCAL STORGE-->
+<script src="../pagina principal/js/app-login.js"></script><!-- JS QUE CONTROLA AL LOGIN DESPLEGABLE Y EL CAMBIO EN EL HEADER A ONLINE  -->
+
+</html>

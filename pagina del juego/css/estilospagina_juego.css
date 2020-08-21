@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+     
+}
+
+
+
+
+
+/*********************************************************************
+
+BODY//BODY//BODY//BODY//BODY//BODY//BODY//BODY//BODY//BODY//BODY//BODY//BODY//
+
+**********************************************************************/
+
+.body{
+    /* background: chartreuse; */
+    margin: 2.5em;
+    width: auto;
+    height: 2200px;
+
+}
+
+#titulo-juego{
+    height: 300px;
+    text-align: center;
+    /* background: red; */
+}
+.body #titulo-juego img{
+    width: 600px;
+
+}
+
+.body .img-caracteristicas{
+    
+    float: left;
+    /* background: green; */
+    width: 60%;
+}
+.caracteristicas-web, .caracteristicas-movil{
+    
+    float: left;
+    /* background: rgb(224, 0, 0); */
+    width: 45%;
+    margin:10px;
+    font-size: 150%;
+}
+
+.body .img-caracteristicas img{
+    padding-top:100px;
+    margin: 1em;
+    /* background:red; */
+    width: 100%;
+    height: 90%;
+}
+
+.inf-puntajes{
+    float: left;
+    text-align: center;
+    width: 20%;
+    /* background: crimson; */
+    margin-left: 1em;
+    width: 35%;
+    font-size: 150%;
+    
+}
+
+.inf-puntajes h1{
+    float: center;
+    margin-bottom: .5em;
+}
+
+.inf-puntajes p{
+    color:black;
+    font-size: 100%;
+    line-height: 155%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+.inf-puntajes ul{
+    margin: 10px;
+    
+}
+
+.inf-puntajes li{
+    border: 2px  solid;
+}
+
+#contenedorjugar{
+
+    position: absolute;
+    width: 1060px;
+    height: 560px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 5px 10px black;
+    background: #172025;
+    top: 1600px;
+    left: 50%;
+    margin-left: -530px;
+    
+
+
+}
+
+#contenedorjugar #jugar{
+    
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: 30px;
+    left: 2.5%;
+    background: url(../img/pantallanivel.jpg);
+    text-align: center;
+    
+   
+    
+}
+
+#contenedorjugar #jugar a{
+    box-shadow: 0px 5px 10px black;
+    line-height: 450px;
+    background: chartreuse;
+    border-radius: 10px;
+    color: black;
+    padding: 3em;
+    font-size: 150%;
+}
+
+

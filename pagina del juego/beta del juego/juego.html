@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NINJA CHRONICLES</title>
+    
+    <link rel="icon" href="IMG/vidas.jpg">
+    
+    <link rel="stylesheet" href="CSS/estilos.css">
+    
+
+</head>
+<body>
+    
+    <!-- PANTALLA VERTICAL  -->
+
+    <div class="" id="vertical"></div>
+
+    <!-- MARCO -->
+    <div class="" id="marco"></div>
+
+    <!--CONTENDOR  -->
+    <div class="" id="contenedor">
+
+       
+           
+        <div  id="pantallainicio">
+            <div  id="cerrarsesion"><a href="../paginajuego_info.html">volver</a></div>
+
+
+            <h2 id="saludo">¡HOLA <img src="IMG/perfiles/perfil3.jpg" alt=""> BIENVENIDO!</h2>
+
+            <!-- NIVEL 1 -->
+
+            <div class="niveles" id="nivel1">
+                
+                <center><button id="botoninicio1">INGRESAR</button></center>
+
+                <div class="puntajes"></div>
+
+            </div>
+
+            <!-- NIVEL 2 -->
+            <div class="niveles" id="nivel2">
+                
+                <center><button id="botoninicio2">INGRESAR</button></center>
+
+                <div class="puntajes"></div>
+
+            </div>
+
+            <!-- NIVEL 3 -->
+
+            <div class="niveles" id="nivel3">
+
+                <center><button id="botoninicio3">INGRESAR</button></center>
+
+                <div class="puntajes"></div>
+
+            </div>
+
+        </div>
+
+        <!-- CANVAS -->
+
+        <canvas id="lienzo" width="1000px" height="500px"></canvas>
+        
+        <!-- Tablero -->
+
+        <div id="tablero">
+            <!-- vida -->
+
+            <div id="vidas">
+                <p>VIDAS:</p>
+
+                <ul>
+                    <li><img src="IMG/vidas.jpg" alt=""></li>
+                    <li><img src="IMG/vidas.jpg" alt=""></li>
+                    <li><img src="IMG/vidas.jpg" alt=""></li>
+                    
+                </ul>
+            </div>
+
+            <div id="energia">
+                <p>ENERGIA:</p>
+                <meter id="medidaEnergia" value="100" min="0" max="100" high="40"></meter>
+
+                <span>100%</span>
+            </div>
+
+            <div  id="monedas">
+                <p>Puntaje: </p>
+                <span>0</span>
+                <div class="" id="spritemoneda"></div>
+            </div>
+
+            <div  id="sonido">
+                <p>Volumen: </p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <!-- SALIDA -->
+
+            <div class="" id="salida">
+                <button id="salir">salir</button>
+            </div>
+        </div>
+
+        <!-- GAME OVER  -->
+
+        <div class="" id="gameover">
+            <h1>GAME OVER</h1>
+        </div>
+
+
+
+
+
+        <!-- PRELOAD -->
+        
+        <div class="" id="carga">
+            <div class="" id="preload">
+
+                <span>%0</span>
+                <br>
+                <meter value="0" min="0" max="100" high="90"></meter>
+
+            </div>
+        </div>
+
+
+
+    </div> 
+           
+        
+    
+    
+    <footer>
+        <center>
+            <p>Copyrigth © 2019 PIEDRAGAMES ||<a href="/Home.html"> PIEDRAGAMES.COM</a>
+            </p>
+        </center>
+    </footer>
+
+    <script src="JS/variables_y_propiedades.js"></script>
+    <script src="JS/inicio.js"></script>
+    <script src="JS/Juego.js"></script>
+    <script src="JS/lienzo.js"></script>
+    <script src="JS/all.js"></script>
+</body>
+</html>
+
+

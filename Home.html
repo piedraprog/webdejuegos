@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagina Principal</title>
+
+    <!-- HOJAS DE ESTILO -->
+    <link rel="stylesheet" href="pagina principal/css/estilohome.css"> 
+
+    <link rel="stylesheet" href="pagina principal/css/estiloheader.css">
+
+    <link rel="stylesheet" href="pagina principal/css/estiloslider.css">
+
+    <link rel="stylesheet" href="pagina principal/css/estilocontenido.css">
+
+    <link rel="stylesheet" href="pagina principal/css/estilofooter.css">
+
+    <link rel="stylesheet" href="pagina principal/css/estilologin.css">
+
+    <link rel="stylesheet" href="pagina principal/css/estilos-premium.css">
+
+    <!-- RECURSOS -->
+
+    <link rel="stylesheet" type="text/css" href="recursos globales/bootstrap/css/bootstrap.css">
+    <script src="recursos globales/iconos/all.js"></script>
+    <script src="pagina principal/js/jquery-3.4.1.min.js"></script>
+    <script src="recursos globales/bootstrap/js/bootstrap.js"></script>
+
+</head>
+<body>
+    
+    
+    <header  id="header">
+        <div class="contenedor-header">
+            <nav class="header-menu">
+
+                <div class="header-logo">
+    
+                    <a href="#" class="marca"><img src="pagina principal/imagenes/logo2.png"></a>
+                    <a href="#" class="btn-menu" id="btn-menu"><i class="icono fas fa-bars"></i></a>
+                </div>
+    
+                <div class="enlaces" id="enlaces">
+    
+                    <ul>
+                        <li><a id="home" href="Home.html">Home</a></li>
+                            
+                        <li><a id="noticias" href="#">Noticias</a></li>
+                            
+                        <li><a id="juegos" href="pagina del juego/paginajuego_info.html">Juegos</a></li>
+                            
+                        <li><button id="pago" type="button"  data-toggle="modal" data-target="#modal-premium">Premium</button></li>
+
+                        <li>
+                            <div class="acceder" id="acceder">
+                                <a id="login" href="#">Login</a>
+                                <div id="login-content">
+                                    <form id="login-acceder">
+                                        <h1>Ingresar</h1> 
+                                        <input id="user" type="text"  placeholder="Usuario">  
+                                        <br>
+                                        <input id="pass" type="password" name="Password" placeholder="Contraseña">
+                                        <br>
+                                        <label><input type="checkbox" checked="checked">Recuerdame</label>
+                                        <br>
+                                        <div id="mensaje">
+                                            
+                                        </div>
+                                        <a class="datos-olvidados" href="#">¿Has olvidado los Datos de la Cuenta?</a>     <br>                    
+                                        <button id="abrir" type="submit"  data-toggle="modal" data-target="#modal-registro">Registrarme</button>
+
+                                        <button type="submit" id="ingresar">Ingresar</button>
+                                            
+                                        
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="online" id="online">
+                                    <a id="login2" href="#"><i id="Uonline"></i></a>
+                                    <div id="login-online">
+                                        <form id="login-sesiononline">
+                                            <ul>
+                                                <li><button type="submit" id="Eliminar-Cuenta">¿Eliminar Cuenta?</button></li>
+
+                                                <li><button type="submit" id="Configuracion-Cuenta">Configuracion Cuenta</button></li>
+                                            </ul>   
+
+                                                <button type="submit" id="cerrar-sesion">cerrar-sesion</button>
+                                        </form>
+                                    </div>
+                            </div>   
+                        </li>
+                            
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS// MODALS//-->
+
+        <!-- MODAL DE SERVICION PREMIUM -->
+    <div class="modal fade" id="modal-premium" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+            <div class="modal-dialog" role="document">
+          
+              <div class="modal-content">
+          
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Ayuda a usuario</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+                    <div class="tabla">
+                      <div class="titulo">
+                        <span class="fa fa-diamond"></span>
+                        <h2>Económico</h2>
+                      </div>
+                
+                      <div class="precio">
+                        <h3>$ <span>25</span></h3>
+                      </div>
+                
+                      <div class="descripcion">
+                        <ul>
+                          <li><i class="fa fa-check"></i> 10GB Espacio</li>
+                          <li><i class="fa fa-check"></i> 5 Dominios</li>
+                          <li><i class="fa fa-check"></i> 10 Cuentas de Correo</li>
+                          <li><i class="fa fa-times"></i> Soporte Económico</li>
+                        </ul>
+                      </div>
+                
+                      <div class="enlace">
+                        <a href="#">Comprar</a>
+                      </div>
+                    </div>
+                
+                    <div class="tabla">
+                      <div class="titulo">
+                        <span class="fa fa-diamond"></span>
+                        <h2>Premium</h2>
+                      </div>
+                
+                      <div class="precio">
+                        <h3>$ <span>50</span></h3>
+                      </div>
+                
+                      <div class="descripcion">
+                        <ul>
+                          <li><i class="fa fa-check"></i> 100GB Espacio</li>
+                          <li><i class="fa fa-check"></i> 10 Dominios</li>
+                          <li><i class="fa fa-check"></i> 50 Cuentas de Correo</li>
+                          <li><i class="fa fa-check"></i> Soporte Premium</li>
+                        </ul>
+                      </div>
+                
+                      <div class="enlace">
+                        <a href="#">Comprar</a>
+                      </div>
+                    </div>
+                
+                    <div class="tabla">
+                      <div class="titulo">
+                        <span class="fa fa-diamond"></span>
+                        <h2>Empresarial</h2>
+                      </div>
+                
+                      <div class="precio">
+                        <h3>$ <span>100</span></h3>
+                      </div>
+                
+                      <div class="descripcion">
+                        <ul>
+                          <li><i class="fa fa-check"></i> Espacio Ilimitado</li>
+                          <li><i class="fa fa-check"></i> 25 Dominios</li>
+                          <li><i class="fa fa-check"></i> Correos Ilimitados</li>
+                          <li><i class="fa fa-check"></i> Soporte Empresarial</li>
+                        </ul>
+                      </div>
+                
+                      <div class="enlace">
+                        <a href="#">Comprar</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                 
+                </div>
+              </div>
+            </div>
+    </div>
+        
+        <!-- MODAL DE SISTEMA DE REGISTRO -->
+    <div class="modal fade" id="modal-registro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+            <div class="modal-dialog" role="document">
+          
+              <div class="modal-content">
+          
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Ayuda a usuario</h4>
+                </div>
+                <div class="modal-body">
+                    <form  id="formulario">
+                        <ul>
+                            <li>Nombre de Usuario * <input type="text" id="username" required></li>
+                            
+                            <li>Contraseña * <input type="password" id="password" required></li>
+                         
+                            <li>Verificar Contraseña * <input type="password"  id="vrpassword" required></li>
+
+                            <div id="alerta1" style="color: red;"></div>
+
+                            <li>Correo Electronico * <input type="email" id="email" required></li>
+                            
+                            <li>Confirmacion de Correo Electronico * <input type="email" id="vremail" required></li>
+
+                            <div id="alerta2" style="color: red;"></div>
+
+                            <li>Fecha de Nacimiento * <input type="date" id="date" required></li>
+                            
+                            <li>Numero de Tarjeta de Credito  <input type="text" id="Credit-card" ></li>
+                           
+                            <li>Numero de Seguridad <input type="text" id="SecurityCredit-card" ></li>
+                            
+                            <div id="alerta3" style="color: red;"></div>
+
+                            <label>Al registrarte, aceptas nuestros <a href="#">Términos de servicio</a>y nuestra <a href="#">Política de privacidad</a>.</label>
+                        </ul>       
+                </form>
+                </div>
+                <div class="modal-footer">
+                  <button id="registroDB" type="submit" class="btn btn-primary">REGISTRARME</button>
+                 
+                </div>
+              </div>
+            </div>
+    </div>            
+
+
+    <!-- BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY//BODDY// -->
+    <div class="contenedor-principal">   
+
+       
+        <!------------------------------- SLIDER ------------------------------------------------->
+        
+        <div class="slide-contenedor">
+
+            <div class="miSlider fade">
+                <img src="pagina principal/imagenes/slider1.jpg" alt="">
+            </div>
+
+            <div class="miSlider fade">
+                <img src="pagina principal/imagenes/slider2.jpg" alt="">
+            </div>
+
+            <div class="miSlider fade">
+                <img src="pagina principal/imagenes/slider3.png" alt="">
+            </div>
+
+            <div class="miSlider fade">
+                
+                <img src="pagina principal/imagenes/portada.jpg" alt="">
+                
+            </div>
+
+            <div class="direcciones">
+                <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+            </div>
+
+            <div class="barras">
+                <span class="barra active" onclick="posicionSlide(1)"></span>
+                <span class="barra" onclick="posicionSlide(2)"></span>
+                <span class="barra" onclick="posicionSlide(3)"></span>
+                <span class="barra" onclick="posicionSlide(4)"></span>
+            </div> 
+
+        </div>        
+        
+
+        <!------------------------------- CONTENIDO ------------------------------------------------->
+
+        <div class="info-empresa" id="info-empresa">
+                
+          <section class="infogeneral">
+              <h2>¿Quienes Somos?</h2>
+              <p>Somos una empresa fundada en 2017, con una vision al soporte de juegos creados por jugadores para jugadores Desarrollamos proyectos de web, gráfico innovadores que combinan sensibilidad y tecnología.Entramos al mercado con nuestor primer juego que fue un remake del Arkanoid un juego de arcade de los 80. Tenemos nuestra sede central en Los Angeles, California.</p>
+          </section>
+
+          <img src="pagina principal/imagenes/qs1.jpg" alt="">
+
+          <section class="infogeneral2">
+                <h2>Impacto Social</h2>
+                <p>Creemos que cualquier persona con pasión, visión y perseverancia puede tener un impacto positivo. Como parte de ese espíritu, también creemos que hay formas en las que nosotros, como empresa, podemos proporcionar valor a largo plazo e impacto positivo a los jugadores, socios, alborotadores y comunidades a las que servimos.<br> A través de la responsabilidad social corporativa, esperamos ayudar a construir un mundo más positivo para los jugadores y nuestras comunidades. Para hacer esto, nos enfocamos en crear un acceso igualitario a la educación, el desarrollo de habilidades y la promoción de una ciudadanía positiva en todo el mundo.</p>
+          </section>
+            
+            <img src="pagina principal/imagenes/qs2.jpg" alt="">
+
+        </div>
+
+        <div class="contenido-noticias">
+
+            <section class="noticias1">
+                <h3>El streaming más largo del mundo: este streamer ha retransmitido 572 horas en un mes</h3>
+                <p>Andrew "GianWaffle" Bodine se propuso en noviembre batir el récord previamente fijado del streaming más largo, y lo ha conseguido dejando las horas de sueño al mínimo y emitiendo 19 horas al día.</p>
+                <a href="https://vandal.elespanol.com/noticia/1350729580/el-streaming-mas-largo-del-mundo-este-streamer-ha-retransmitido-572-horas-en-un-mes/">Leer mas</a>
+            </section>
+
+            <section class="noticias2">
+                <!-- <img class="imgnot" src="/" alt=""> -->
+                <h3>Death Stranding: De tener una secuela, Hideo Kojima lo empezaría 'desde cero'</h3>
+                <p>El creador de Metal Gear quiere volver a trabajar con Norman Reedus después de su último juego, con el que hizo una gran amistad en los últimos años.</p>
+                <a href="https://vandal.elespanol.com/noticia/1350729579/death-stranding-de-tener-una-secuela-hideo-kojima-lo-empezaria-desde-cero/">Leer mas</a>
+            </section>
+            
+
+            <section class="noticias3">
+                <h3>Los juegos de la década: PlayerUnknown's Battlegrounds</h3>
+                <p>PlayerUnknown's Battlegrounds, más conocido como PUBG, ha sido uno de los juegos que han marcado la década iniciando la revolución de los Battle Royale para convertirse en todo un fenómeno jugable.</p>
+                <a href="https://vandal.elespanol.com/noticia/1350729575/los-juegos-de-la-decada-playerunknowns-battlegrounds/">Leer mas</a>
+            </section>
+
+            <section class="noticias4">
+                <h3>La fallida SNES PlayStation iba a integrar de serie el chip SuperFX para gráficos 3D</h3>
+                <p>La fallida SNES PlayStation, el proyecto que unía un lector de CD de Sony con la consola Super Nintendo, podría haber contado en su interior con el chip SuperFX de serie. </p>
+                <a href="https://vandal.elespanol.com/noticia/1350729568/la-fallida-snes-playstation-iba-a-integrar-de-serie-el-chip-superfx-para-graficos-3d/https://vandal.elespanol.com/noticia/1350729568/la-fallida-snes-playstation-iba-a-integrar-de-serie-el-chip-superfx-para-graficos-3d/">Leer mas</a>
+            </section>
+            
+
+            <section class="noticias5">
+                <h3>Blizzard asegura que está trabajando en muchos nuevos personajes para Overwatch 2</h3>
+                <p>Blizzard ha prometido que están trabajando en una buena cantidad de nuevos personajes para Overwatch, la continuación de su título multijugador de acción en primera persona. </p>
+                <a href="https://vandal.elespanol.com/noticia/1350729567/blizzard-asegura-que-esta-trabajando-en-muchos-nuevos-personajes-para-overwatch-2/">Leer mas</a>
+            </section>
+
+            <section class="noticias6">
+                <h3>Así luce Star Wars Jedi: Fallen Order gracias al ray tracing en PC</h3>
+                <p>Usando el célebre mod Reshade, dos youtubers nos muestran cómo son los gráficos del videojuego de Respawn Entertainment con el trazado de rayos en tiempo real en su iluminación.</p>
+                <a href="https://vandal.elespanol.com/noticia/1350729530/asi-luce-star-wars-jedi-fallen-order-gracias-al-ray-tracing-en-pc/">Leer mas</a>
+            </section>
+
+           
+
+        </div>
+
+        <!-- AQUI VA EL MODAL O LA TABLA DE PRECIOS DE LOS PLANES PREMIUM PARA PAGO -->
+
+    </div>
+    
+    <!-- FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER//FOOTER// -->
+    <footer id="footer" class="footer-1">
+      <div class="main-footer widgets-dark typo-light">
+          <div class="container">
+              <div class="row">
+              
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                              <div class="widget subscribe no-box">
+                                  <img src="/pagina principal/imagenes/logo2.png">
+                              </div>
+                  </div>
+              
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                              <div class="widget no-box">
+                                  <h5 class="widget-title">Information<span></span></h5>
+                                  <ul class="thumbnail-widget">
+
+                                      <li><div class="thumb-content"><a href="#.">Infomacion</a></div></li>
+
+                                      <li><div class="thumb-content"><a href="#.">Noticias</a></div></li>
+
+                                      <li><div class="thumb-content"><a href="#.">Acerca de Nosotros</a></div></li>
+
+                                      <li><div class="thumb-content"><a href="#.">Direccion</a></div></li>
+
+                                      <li><div class="thumb-content"><a href="#.">Telefonos</a></div></li>
+                                      
+                                      
+                                  
+                                  </ul>
+                              </div>
+                  </div>
+              
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                              <div class="widget no-box">
+                                  <h5 class="widget-title">Unete al Equipo<span></span></h5>
+                                  <p>Ten acceso a toda una variedad de productos</p>
+                                  <a id="abrir "  class="btn" data-toggle="modal" data-target="#modal-registro" href="#." target="_blank">Registrate Ahora</a>
+                                  
+                              </div>
+                  </div>
+              
+                  <div class="col-xs-12 col-sm-6 col-md-3">
+                      
+                              <div class="widget no-box">
+                                  <h5 class="widget-title">Contact Us<span></span></h5>
+                                  
+                                  <p><a href="mailto:support@piedraGames.com" title="glorythemes">support@piedraGames.com</a></p>
+                                  <ul class="social-footer2">
+                                      <li><i class="fab fa-facebook-square"></i></li>
+                                      <li><i class="fab fa-instagram"></i></li>
+                                      <li><i class="fab fa-twitter"></i></li>
+                                      <li><i class="fab fa-youtube"></i></li>
+                                  </ul>
+                              </div>
+                  </div>
+              
+                  <div class="footer-copyright">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-12 text-center">
+                                  <p> Piedra Games © Copyright 2019.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>   
+                  
+              </div>
+          </div>
+      </div>
+    </footer>
+    
+</body>
+<!-- SCRIPTS -->
+
+
+<script src="pagina principal/js/app-slider.js"></script><!-- JS QUE CONTROLA AL SLIDER DE LA PAGINA PRINCIPAL-->
+
+<script src="pagina principal/js/app-database.js"></script><!-- JS QUE ME VA A MANEJAR EL LOCAL ESTORAGE Y EL REGISTRO DE USUARIOS EN EL LOCAL STORGE-->
+<script src="pagina principal/js/app-login.js"></script><!-- JS QUE CONTROLA AL LOGIN DESPLEGABLE Y EL CAMBIO EN EL HEADER A ONLINE  -->
+
+</html>

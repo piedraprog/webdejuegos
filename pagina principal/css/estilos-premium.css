@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	
+	font-family: Raleway;
+}
+
+
+.modal-content {
+	width: 800px;
+	margin-left: -10%;
+    
+}
+
+.container {
+	width: 100%;
+	max-width: 1150px;
+	margin: auto;
+	padding: 50px 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.tabla {
+		background: rgba(5, 30, 91, 0.84);
+		width: 219px;
+		color: #fff;
+		text-align: center;
+		border-radius: 10px;
+		cursor: pointer;
+		overflow: hidden;
+		transition: .5s;
+		margin-bottom: 15px;
+}
+
+.tabla:hover {
+	transform: scale(1.05);
+}
+
+.titulo {
+	background: #00CD2A;
+	padding: 15px 0;
+}
+
+.titulo .fa {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+
+.titulo h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.precio {
+	padding: 10px 0;
+}
+
+.precio h3 {
+	font-size: 30px;
+	color: #00CD2A;
+}
+
+.precio h3 span {
+	font-size: 50px;
+	margin-left: 5px;
+}
+
+.descripcion ul li {
+	list-style: none;
+	padding: 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+
+.descripcion ul li .fa-check {
+	color: #00CD2A;
+}
+
+.descripcion ul li .fa-times {
+	color: #FF4032;
+}
+
+.enlace a {
+	display: inline-block;
+	text-decoration: none;
+	background: #00CD2A;
+	color: #fff;
+	margin: 40px 0;
+	padding: 10px 40px;
+	border-radius: 50px;
+	font-size: 22px;
+	text-transform: uppercase;
+	transition: .3s;
+}	
+
+.tabla:nth-child(2) .titulo,
+.tabla:nth-child(2) .enlace a {
+	background: #0059B0;
+}
+
+.tabla:nth-child(2) .precio h3 {
+	color: #0059B0;
+}
+
+.tabla:nth-child(3) .titulo,
+.tabla:nth-child(3) .enlace a {
+	background: #ff4032;
+}
+
+.tabla:nth-child(3) .precio h3 {
+	color: #ff4032;
+}
+
+@media screen and (max-width: 750px) {
+	.tabla {
+		width: 225px;
+	}
+
+	.titulo .fa {
+		font-size: 40px;
+		margin-bottom: 5px;
+	}
+
+	.titulo h2 {
+		font-size: 18px;
+	}
+
+	.precio {
+		padding: 4px 0;
+	}
+
+	.precio h3 {
+		font-size: 20px;
+	}
+
+	.enlace a {
+		margin: 20px 0;
+		padding: 8px 20px;
+		font-size: 18px;
+	}
+
+	.enlace a:hover {
+		transform: scale(1.05);
+	}
+	
+	.tabla:hover {
+		transform: none;
+	}
+}
+
+
+@media screen and (max-width: 470px) {
+	.tabla {
+		width: 300px;
+	}
+}

@@ -1,0 +1,224 @@
+header{
+    background: #192a56;
+    width: 100%;
+    top: 0%;
+    
+}
+
+.header-menu{
+    
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+
+.header-menu .header-logo {
+    
+    margin-right: 0.5em;
+}
+
+.header-menu .header-logo img{
+
+    vertical-align: top;
+    height: 90px ;  
+    
+}
+
+.header-menu .btn-menu{
+    display: none ;
+    color:white;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+
+
+.header-menu .enlaces a{
+    display: grid;
+    text-align: right;
+
+}
+
+.header-menu .enlaces #home, #noticias, #juegos, #pago{
+    color: #00d8d6;
+    text-decoration: none;
+    display: inline-block;
+    padding:1em;
+    text-align: center;
+    font-size: 1em;
+    background: none;
+    border: none
+}
+
+.header-menu .enlaces .datos-olvidados{
+    color: #00d8d6;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+}
+.header-menu  a:hover{
+    color: white;
+    
+}
+
+ul {
+
+    list-style: none;
+}
+  
+
+nav ul li {
+    font-size: 135%;
+    display: inline-block;
+    padding: 3px;
+}
+  
+nav ul li a {
+    color: #6991AC;
+}
+  
+
+.log-usuarioOnline{
+    color: #00d8d6;
+    
+    display: inline-block;
+    padding:1em;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.acceder #login, #login2{
+
+    color: #00d8d6;
+    text-decoration: none;
+    display: inline-block;
+    padding:1em;
+    text-align: center;
+    font-size: 1em;
+    border:none;
+    
+
+}
+
+.acceder #login:hover{
+
+    color:white;
+
+}
+
+/* LOGIN DIV QUE SE MUESTRA  */
+
+.acceder #login-content {
+  position: absolute;
+  top: 90px;
+  right: 10%;
+  z-index: 999;    
+  background:#1e272e;
+  padding: 15px;
+  width: 280px; 
+  display: none;
+}
+
+input#user, input#pass {
+  background: #f1f1f1;
+  padding: 6px 5px;
+  margin-bottom: 10px;
+  width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#ingresar, #abrir {    
+
+  background-color:#0fbcf9;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+  border: 3px solid #1e272e;
+  float: left;
+  height: 32px;
+  padding: 0;
+  width: 120px;
+  cursor: pointer;
+  font: bold 14px arial;
+  color: #ffff;
+}
+
+
+#submit:hover { 
+
+  background-color: #044E6B;
+  
+} 
+
+label {
+  float: left;
+  line-height: 28px;
+  font-size: 14px;
+  color: #666;
+}
+
+#contraseña{
+    font-size: 50%;
+    position: absolute;
+}
+
+.acceder h1{
+    text-align: center;
+    color: white;
+    padding-bottom:1em ;
+}
+/* DIV DE ONLINE PARA CERRAR SESION */
+
+
+
+li .online a{
+    
+    color:white;
+}
+
+.online #login-online {
+
+    position: absolute;
+    top: 90px;;
+    right: 10%;
+    z-index: 999;    
+    background:#1e272e;
+    padding: 15px;
+    width: 280px; 
+    display:block;
+}
+
+.online #login-content #cerrar-sesion, #Eliminar-Cuenta, #Configuracion-Cuenta{
+
+  
+  background-color:#0fbcf9;
+  text-shadow: 0 1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
+  border: 3px solid #1e272e;
+  float: left;
+  height: 32px;
+  padding: 0;
+  width: 120px;
+  cursor: pointer;
+  font: bold 14px arial;
+  color: #ffff;
+
+}
+
+
+#mensaje{
+  color: red;
+  font-size: 15px;
+  padding: 10px;
+}
+

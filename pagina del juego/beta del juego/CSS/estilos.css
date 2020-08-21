@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+body{
+    position: relative;
+    background: #172025;
+     /* ESTO AQUI HAY QUE HACER LOS FONDOS EN ILLUSTRAITOR  */
+    background-image:url(../IMG/intro/fondo.jpg);
+    background-position: top; 
+    overflow-y: hidden;   
+}
+
+/* MARCO */
+#marco{
+
+    position: absolute;
+    width: 1060px;
+    height: 560px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 5px 10px black;
+    background: #172025;
+    top: -30px;
+    left: 50%;
+    margin-left: -530px;
+    
+}
+
+
+/* CONTENEDOR */
+
+#contenedor{
+    position: relative;
+    margin: 5vh auto;
+    width: 1000px;
+    height: 500px;
+    background: white;
+
+}
+
+#contenedor #ingreso{
+    
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: 0;
+    left: 0px;
+    background: url(../IMG/intro/fondojuego.jpg);
+}
+
+#contenedor #ingreso #ingresojuego{
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    left: 50%;
+    margin-left: -150px;
+
+}
+
+#contenedor #ingreso #ingresojuego img{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+#contenedor #ingreso #ingresojuego button{
+
+    width: 249px;
+    height: 60px;
+    margin-left: 1px;
+    border-radius: 5px;
+    border: none;
+    background: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/* INICIO */
+
+
+#contenedor #pantallainicio #cerrarsesion a{
+    position: absolute;
+    right: 0%;
+    text-align: center;
+    color: whitesmoke;
+    top: -25px;    
+
+}
+
+#contenedor #pantallainicio{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    top: 0;
+    left: 0px;
+    background: url(../IMG/pantallanivel.jpg)no-repeat;
+    font-family: sans-serif;    
+
+}
+
+#contenedor #pantallainicio #saludo{
+    position:absolute;
+    left: 50%;
+    width: 1000px;
+    text-align: center;
+    margin-left: -500px;
+    color: black;
+    top: 3px;
+}
+
+
+#contenedor #pantallainicio .niveles{
+    float: left;
+    position:relative;
+    width: 33.33%;
+    height: 300px;
+    margin-top: 200px;
+    text-align: center;
+    
+}
+
+#contenedor #pantallainicio .niveles .puntaje {
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    width: 100%;
+    margin-left: -50%;
+    color: black;
+    font-size: 20px;
+    
+}
+
+#contenedor #pantallainicio .niveles button{
+
+    display: block;
+    width: 100px;
+    margin: 55px 0;
+    padding: 10px;
+    border: 0;
+    background: #131c17;
+    color:white;
+    font-size: 18px;
+    border-radius: 10px 0 10px 0;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#contenedor #pantallainicio .niveles button:hover{
+
+   width: 120px;
+   margin: 50px 0;
+   transition: all 1s;
+}
+
+
+#contenedor #pantallainicio .niveles button:active{
+    background: green;
+}
+
+
+
+
+/* PARA LA ETIQUETAS DE IMAGEN */
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    position: bottom;
+    padding: 8px;
+    font-family: sans-serif;
+    color:gray;
+    font-size: 12px;
+}
+
+footer a{
+    color: white;
+}
+
+/* CANVAS */
+
+#contenedor #lienzo{
+    display: none;
+    
+}
+
+
+
+/* VERTICAL  */
+
+#vertical{
+    display: none;
+}
+
+@media  all and ( orientation:portrait ){
+
+    #contenedor{
+        display: none;
+    }
+
+    #vertical{
+
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        background: url(../IMG/vertical.jpg);
+        background-size: cover;
+        background-position: left;
+    }
+}
+
+/* TABLERO */
+
+#contenedor #tablero{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 50px;
+    background: #131c175d;
+
+}
+
+/* vidas */
+
+#contenedor #tablero #vidas{
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 70px;
+    color: wheat;
+    font-size: 20px;
+    
+}
+
+#contenedor #tablero #vidas p{
+
+    float: left;
+    line-height: 60px;
+    padding-left: 10px;
+    width: 50px;
+    
+    font-weight: bold;
+    
+    
+}
+
+#contenedor #tablero #vidas ul{
+
+   float: left;
+   width: 140px;
+   height: 70px;
+   margin-left: 20px;
+}
+
+#contenedor #tablero #vidas ul li{
+    margin: 8px 2px;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    line-height: 40px;
+    background: #ffffff46;
+    text-align: center;
+}
+
+#contenedor #tablero #vidas ul li img{
+    padding-top: 7px;
+    width: 60%;
+    height: 60%;
+}
+
+/* energia */
+
+#contenedor #tablero #energia{
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    width: 370px;
+    height: 70px;
+    color: wheat;
+    font-size: 20px;
+    
+}
+
+#contenedor #tablero #energia  p{
+    float: left;
+    line-height: 60px;
+    padding-left: 10px;
+    width: 50px;
+    font-weight: bold;
+}
+
+#contenedor #tablero #energia meter{
+    float: left;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#contenedor #tablero #energia span{
+    float: left;
+    line-height: 60px;
+    padding-left: 5px;
+}
+
+
+/* MONEDAS */
+
+#contenedor #tablero #monedas{
+    position: absolute;
+    top: 0px;
+    left: 560px;   
+    width: 200px;
+    height: 70px;
+    color: wheat;
+    font-size: 20px;
+    
+}
+
+#contenedor #tablero #monedas  p{
+    float: left;
+    line-height: 60px;
+    padding-left: 34px;
+    width: 50px;
+    font-weight: bold;
+}
+
+#contenedor #tablero #monedas  span{
+    float: left;
+    line-height: 60px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+/* SONIDO */
+
+#contenedor #tablero #sonido{
+    position: absolute;
+    top: 0px;
+    left: 700px;   
+    width: 200px;
+    height: 70px;
+    color: wheat;
+    font-size: 20px;
+    
+}
+#contenedor #tablero #sonido p{
+    float: left;
+    line-height: 60px;
+    padding-left: 20px;
+    width: 50px;
+    font-weight: bold;
+}
+/* boton de salida */
+
+#contenedor #tablero #salida{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 80px;
+    height: 50px;
+    color: rgb(0, 0, 0);    
+    text-align: center;
+    
+}
+
+#contenedor #tablero #salida button{
+    width: 60px;
+    font-weight: bold;
+    border: 0;
+    margin-top: 15px;
+    padding:5px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0, 0, 0);
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+/* GAME OVER */
+
+#contenedor #gameover{
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1000px;
+    height: 500px;
+    z-index: 1;
+    background: black;
+    color: white;
+}
+
+#contenedor #gameover{
+    line-height: 500px;
+    text-align: center;
+}
+
+/* PRELOAD*/
+
+#contenedor #carga{
+
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 500px;
+    background: black;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    opacity: 1;
+    transition: 1s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#contenedor #carga #preload{
+
+    padding-top: 17%;
+
+}
